@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Data Analytics Portfolio</title>
+
+  <meta name="description" content="A professional portfolio showcasing data analytics projects, skills, and business insights.">
+
+  <style>
+
+    :root {
+
+      --navy: #102a43;
+
+      --blue: #245b85;
+
+      --light: #f3f6fa;
+
+      --text: #263746;
+
+      --muted: #607080;
+
+      --white: #ffffff;
+
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+
+      margin: 0;
+
+      font-family: Arial, Helvetica, sans-serif;
+
+      color: var(--text);
+
+      line-height: 1.7;
+
+      background: var(--white);
+
+    }
+
+    a { color: var(--blue); }
+
+    .container {
+
+      width: min(1080px, 90%);
+
+      margin: auto;
+
+    }
+
+    header {
+
+      background: var(--white);
+
+      border-bottom: 1px solid #e4eaf0;
+
+    }
+
+    nav {
+
+      min-height: 76px;
+
+      display: flex;
+
+      align-items: center;
+
+      justify-content: space-between;
+
+      gap: 20px;
+
+    }
+
+    .brand {
+
+      font-weight: 700;
+
+      color: var(--navy);
+
+      font-size: 19px;
+
+    }
+
+    nav a {
+
+      text-decoration: none;
+
+      margin-left: 20px;
+
+      font-size: 14px;
+
+      font-weight: 600;
+
+    }
+
+    .hero {
+
+      background: var(--light);
+
+      padding: 76px 0;
+
+    }
+
+    .hero-content {
+
+      max-width: 760px;
+
+    }
+
+    .eyebrow {
+
+      color: var(--blue);
+
+      text-transform: uppercase;
+
+      letter-spacing: 2px;
+
+      font-weight: 700;
+
+      font-size: 12px;
+
+    }
+
+    h1, h2, h3 { color: var(--navy); line-height: 1.25; }
+
+    h1 {
+
+      font-size: clamp(36px, 6vw, 56px);
+
+      margin: 14px 0;
+
+    }
+
+    .hero p {
+
+      max-width: 650px;
+
+      color: var(--muted);
+
+      font-size: 18px;
+
+    }
+
+    .button {
+
+      display: inline-block;
+
+      background: var(--navy);
+
+      color: var(--white);
+
+      padding: 12px 22px;
+
+      border-radius: 5px;
+
+      text-decoration: none;
+
+      font-weight: 600;
+
+      margin-top: 14px;
+
+    }
+
+    section { padding: 64px 0; }
+
+    .section-intro {
+
+      color: var(--muted);
+
+      max-width: 650px;
+
+    }
+
+    .project {
+
+      margin-top: 28px;
+
+      padding: 30px;
+
+      border: 1px solid #e0e7ee;
+
+      border-radius: 10px;
+
+      background: var(--white);
+
+    }
+
+    .project-tag {
+
+      color: var(--blue);
+
+      font-size: 12px;
+
+      letter-spacing: 1px;
+
+      font-weight: 700;
+
+    }
+
+    .project h3 { font-size: 24px; }
+
+    .skills {
+
+      background: var(--light);
+
+    }
+
+    .skill-list {
+
+      display: flex;
+
+      flex-wrap: wrap;
+
+      gap: 12px;
+
+      margin-top: 24px;
+
+    }
+
+    .skill {
+
+      background: var(--white);
+
+      border: 1px solid #dce5ed;
+
+      border-radius: 5px;
+
+      padding: 9px 15px;
+
+      color: var(--navy);
+
+      font-size: 14px;
+
+    }
+
+    footer {
+
+      background: var(--navy);
+
+      color: var(--white);
+
+      padding: 30px 0;
+
+    }
+
+    footer p { margin: 0; font-size: 14px; }
+
+    @media (max-width: 600px) {
+
+      nav {
+
+        align-items: flex-start;
+
+        flex-direction: column;
+
+        padding: 18px 0;
+
+      }
+
+      nav a { margin: 0 14px 0 0; }
+
+      .hero { padding: 52px 0; }
+
+      section { padding: 46px 0; }
+
+      .project { padding: 22px; }
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <header>
+
+    <nav class="container">
+
+      <div class="brand">DATA ANALYTICS PORTFOLIO</div>
+
+      <div>
+
+        <a href="#about">About</a>
+
+        <a href="#projects">Projects</a>
+
+        <a href="#skills">Skills</a>
+
+        <a href="#contact">Contact</a>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+  <main>
+
+    <section class="hero" id="about">
+
+      <div class="container hero-content">
+
+        <div class="eyebrow">Data Analytics · Business Insights</div>
+
+        <h1>Turning Data into Business Insights</h1>
+
+        <p>
+
+          I am an aspiring data analyst developing practical skills in
+
+          data analysis, financial reporting, and data visualisation.
+
+          I am interested in using data to understand business performance
+
+          and support informed decision-making.
+
+        </p>
+
+        <a class="button" href="#projects">Explore My Projects</a>
+
+      </div>
+
+    </section>
+
+    <section id="projects">
+
+      <div class="container">
+
+        <div class="eyebrow">Selected Work</div>
+
+        <h2>Featured Project</h2>
+
+        <p class="section-intro">
+
+          Practical projects demonstrating my development in data
+
+          analytics and business reporting.
+
+        </p>
+
+        <article class="project">
+
+          <div class="project-tag">PROJECT 01 · GOOGLE SHEETS</div>
+
+          <h3>Personal Finance Tracker &amp; Dashboard</h3>
+
+          <p>
+
+            A financial tracking project designed to organise income
+
+            and expenditure records and make personal finances easier
+
+            to monitor.
+
+          </p>
+
+          <p><strong>Focus:</strong> Financial tracking, spreadsheet
+
+            organisation, calculations and data visualisation.</p>
+
+          <p><em>Dashboard preview and project link coming soon.</em></p>
+
+        </article>
+
+      </div>
+
+    </section>
+
+    <section class="skills" id="skills">
+
+      <div class="container">
+
+        <div class="eyebrow">Professional Development</div>
+
+        <h2>Tools &amp; Skills</h2>
+
+        <p class="section-intro">
+
+          Building practical skills through hands-on learning and projects.
+
+        </p>
+
+        <div class="skill-list">
+
+          <span class="skill">Google Sheets</span>
+
+          <span class="skill">Excel</span>
+
+          <span class="skill">MySQL</span>
+
+          <span class="skill">Power BI</span>
+
+          <span class="skill">Python — Learning</span>
+
+          <span class="skill">R — Learning</span>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section id="contact">
+
+      <div class="container">
+
+        <div class="eyebrow">Get in Touch</div>
+
+        <h2>Contact</h2>
+
+        <p class="section-intro">
+
+          Interested in my work? Contact details and professional
+
+          links will be added here.
+
+        </p>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+
+    <div class="container">
+
+      <p>Data Analytics Portfolio · Projects and continuous learning</p>
+
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
